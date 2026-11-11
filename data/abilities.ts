@@ -1586,13 +1586,13 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 4,
 		num: 169,
 	},
-	galewings: {
+galewings: {
 		onModifyPriority(priority, pokemon, target, move) {
-			if (move?.type === 'Flying' && pokemon.hp === pokemon.maxhp) return priority + 1;
+			if (move?.type === 'Flying') return priority + 1;
 		},
 		flags: {},
 		name: "Gale Wings",
-		rating: 1.5,
+		rating: 3,
 		num: 177,
 	},
 	galvanize: {
@@ -3495,20 +3495,18 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 0,
 		num: 239,
 	},
-	protean: {
+protean: {
 		onPrepareHit(source, target, move) {
-			if (this.effectState.protean) return;
 			if (move.hasBounced || move.flags['futuremove'] || move.sourceEffect === 'snatch' || move.callsMove) return;
 			const type = move.type;
 			if (type && type !== '???' && source.getTypes().join() !== type) {
 				if (!source.setType(type)) return;
-				this.effectState.protean = true;
 				this.add('-start', source, 'typechange', type, '[from] ability: Protean');
 			}
 		},
 		flags: {},
 		name: "Protean",
-		rating: 4,
+		rating: 4.5,
 		num: 168,
 	},
 	protosynthesis: {
