@@ -14468,7 +14468,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	tsareena: {
 		num: 763,
 		name: "Tsareena",
-		types: ["Grass", "Fighting],
+		types: ["Grass", "Fighting"],
 		gender: "F",
 		baseStats: { hp: 72, atk: 120, def: 98, spa: 50, spd: 98, spe: 100 },
 		abilities: { 0: "Leaf Guard", 1: "Queenly Majesty", H: "Sweet Veil" },
@@ -15750,7 +15750,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	cinderace: {
 		num: 815,
 		name: "Cinderace",
-		types: ["Fire", Electric],
+		types: ["Fire", "Electric"],
 		genderRatio: { M: 0.875, F: 0.125 },
 		baseStats: { hp: 80, atk: 116, def: 75, spa: 65, spd: 75, spe: 119 },
 		abilities: { 0: "Blaze", H: "Libero" },
