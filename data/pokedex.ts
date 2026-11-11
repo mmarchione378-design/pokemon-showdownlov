@@ -14455,9 +14455,9 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	tsareena: {
 		num: 763,
 		name: "Tsareena",
-		types: ["Grass"],
+		types: ["Grass", "Fighting],
 		gender: "F",
-		baseStats: { hp: 72, atk: 120, def: 98, spa: 50, spd: 98, spe: 72 },
+		baseStats: { hp: 72, atk: 120, def: 98, spa: 50, spd: 98, spe: 100 },
 		abilities: { 0: "Leaf Guard", 1: "Queenly Majesty", H: "Sweet Veil" },
 		heightm: 1.2,
 		weightkg: 21.4,
