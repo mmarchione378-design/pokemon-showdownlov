@@ -15767,7 +15767,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		name: "Cinderace-Gmax",
 		baseSpecies: "Cinderace",
 		forme: "Gmax",
-		types: ["Fire", "Electric],
+		types: ["Fire", "Electric"],
 		genderRatio: { M: 0.875, F: 0.125 },
 		baseStats: { hp: 80, atk: 116, def: 75, spa: 65, spd: 75, spe: 119 },
 		abilities: { 0: "Blaze", H: "Libero" },
