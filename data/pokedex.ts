@@ -11904,7 +11904,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		eggGroups: ["Undiscovered"],
 		tags: ["Mythical"],
 		otherFormes: ["Meloetta-Pirouette"],
-		formeOrder: ["Meloetta", "Meloetta-Pirouette"],
+		formeOrder: ["Meloetta", "Meloetta-Pirouette", "Meloetta-Alastair"],
 	},
 	meloettapirouette: {
 		num: 648,
@@ -11925,6 +11925,8 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	meloettaalastair: {
 		num: 648,
 		name: "Meloetta-Alastair",
+		baseSpecies: "Meloetta",
+		forme: "Alastair",
 		types: ["Normal", "Psychic"],
 		gender: "N",
 		baseStats: { hp: 100, atk: 100, def: 100, spa: 200, spd: 150, spe: 150 },
